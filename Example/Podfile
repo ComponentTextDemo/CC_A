@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CC_A_Example' do
+  pod 'CC_A', :path => '../'
+  pod 'Masonry'
+  target 'CC_A_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
